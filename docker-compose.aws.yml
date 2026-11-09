@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: muchtodo-backend
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env.aws
+    volumes:
+      - ./.env.aws:/app/.env:ro
+    restart: unless-stopped

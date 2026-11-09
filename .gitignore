@@ -1,0 +1,30 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+crash.log
+
+# SSH keys
+*.pem
+*.key
+
+# Go
+*.exe
+*.out
+
+# Docker
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Deployment image archives
+*.tar

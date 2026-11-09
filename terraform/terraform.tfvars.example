@@ -1,0 +1,5 @@
+aws_region  = "eu-north-1"
+project_name = "muchtodo"
+
+key_name  = "REPLACE_WITH_YOUR_EC2_KEY_PAIR_NAME"
+admin_cidr = "REPLACE_WITH_YOUR_PUBLIC_IP/32"
